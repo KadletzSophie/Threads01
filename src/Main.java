@@ -11,6 +11,10 @@ public class Main {
         DatePrinter dp1 = new DatePrinter();
         Thread th1 = new Thread(dp1);
 
+        CountPrinter dp2 = new CountPrinter();
+        Thread th2 = new Thread(dp2);
+
         th1.start();
+        th2.start();
     }
 }
