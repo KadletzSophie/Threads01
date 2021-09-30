@@ -1,3 +1,8 @@
+/**
+ @author Sophie Kadletz
+ @version ü1, 30.09.2021
+ */
+
 public class CountPrinter implements Runnable {
 
     @Override
